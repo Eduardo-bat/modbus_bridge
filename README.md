@@ -1,6 +1,6 @@
 # modbus_bridge
 
-Repositório encerrado.
+Repositório arquivado, pois o autor deixou o projeto. Seu uso e manutenção, por quem se interessar, são incentivados.
 
 ## Como funciona
 Na ponte, são instanciados um *server* TCP e um *client* RTU. O servidor escuta a porta 502 e é acessível pela rede à qual a placa é conectada quando ligada. As credenciais de acesso à rede são gerenciadas pelo *wifi manager*. O *client* assume a porta serial definida pela *flag* **SW_AS_RT**. A serial complementar é usada para depuração. Inicializada, a ponte transmite todo pacote modbus recebido em seu *server* para o *client* e transmite a resposta do *client* para o *server*. A página web permite configurar e verificar paridade e taxa de bits da interface RTU.
